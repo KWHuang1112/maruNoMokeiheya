@@ -2,7 +2,8 @@
 title: "FB_Pic_Design"
 author: "丸々君"
 date: "2024-04-24"
-output: html_document
+output: github_document
+#output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -23,6 +24,7 @@ Here are some tips for the design.
 
 1. Create a 512x512 plane.
 2. Create "Text" items. 
+
 image:![](pics/Fig.1.png)
 
 If you want to use Chinese or Japanese instead, you need to change "Font" to the proper language which you like.
@@ -38,7 +40,6 @@ Here, I create two text items "丸々の"　and "模型部屋.
 
 image:![](pics/Fig.4.png)
 
-
 Then choose the text item, and open the "modifier" panel.
 
 Select the "Deform`\`Curve"
@@ -46,6 +47,7 @@ Select the "Deform`\`Curve"
 image:![](pics/Fig.5.png)
 
 Then select "BezierCircle" in the "Curve Object".
+
 image:![](pics/Fig.6.png)
 
 4. Almost done, you may adjust position or distance for each items, including "light" and "camera".
